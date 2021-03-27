@@ -48,6 +48,9 @@ customSCSS = []
 # Custom JS
 customJS = []
 
+[params.utterances]
+repo = "Clouder0/ClouderBlogComment"
+
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
 # siteID = "ABCDE"

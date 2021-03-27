@@ -2,6 +2,7 @@
 title: "友情链接"
 date: 2021-03-27T11:57:00+08:00
 slug: "links"
+type: posts
 categories:
   - Other
 ---
