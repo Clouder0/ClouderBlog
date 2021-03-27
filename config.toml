@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "http://static.codein.icu"
 title = "Clouder's Blog"
 theme = "hugo-coder"
 languageCode = "en"
