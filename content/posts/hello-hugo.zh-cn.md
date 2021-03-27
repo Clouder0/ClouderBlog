@@ -11,7 +11,7 @@ categories:
 
 ## 博客迁徙至 Hugo
 
-{{< notice warning>}}
+{{< notice warning >}}
 本文由英语机翻生成。
 {{< /notice >}}
 
