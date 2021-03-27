@@ -11,9 +11,7 @@ categories:
 
 ## 博客迁徙至 Hugo
 
-{{< notice warning >}}
 本文由英语机翻生成。
-{{< /notice >}}
 
 从 Typecho 转到 WordPress 半年后，我一直在努力将博客移至 Hugo。到目前为止，我的博客已经迁移了很多次，也许永远都不会安定下来。
 
