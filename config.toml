@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
-pygmentsStyle = "bw"
+pygmentsStyle = "dracula"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
@@ -12,7 +12,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-katex = true
+math = true
 author = "Clouder"
 description = "Clouder's personal website"
 keywords = "blog,developer,personal,programmer,student,Chinese"
@@ -47,6 +47,18 @@ customCSS = []
 customSCSS = []
 # Custom JS
 customJS = []
+
+
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
 
 [params.utterances]
 repo = "Clouder0/ClouderBlogComment"

@@ -14,6 +14,10 @@ I am Clouder, A Chinese high school student(graduate in 2022) who enjoys tech & 
 
 I had been a competitive programmer for about 2 years and now have quitted.
 
+As I've been using Siyuan Note as my PKM(Personal Knowledge Management) tool to hold all my information, this website only contains some selected articles.
+
+While the majority of the articles are only available in Chinese, some articles are translated into English or even originally written in English for global access.
+
 ## Events
 
 - 2019 CSP-S: Got a second prize in Guangdong Province.(ranked 200+ provincially).
