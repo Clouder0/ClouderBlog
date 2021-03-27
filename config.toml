@@ -12,6 +12,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
+katex = true
 author = "Clouder"
 description = "Clouder's personal website"
 keywords = "blog,developer,personal,programmer,student,Chinese"
@@ -75,21 +76,21 @@ customJS = []
 # id = "gid"
 
 # If you want to implement a Content-Security-Policy, add this section
-[params.csp]
-childsrc = ["'self'"]
-fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'"]
-objectsrc = ["'none'"]
-stylesrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/"
-]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
-prefetchsrc = ["'self'"]
+# [params.csp]
+# childsrc = ["'self'"]
+# fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+# formaction = ["'self'"]
+# framesrc = ["'self'"]
+# imgsrc = ["'self'"]
+# objectsrc = ["'none'"]
+# stylesrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://fonts.googleapis.com/",
+#   "https://cdn.jsdelivr.net/"
+# ]
+# scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+# prefetchsrc = ["'self'"]
 
 [taxonomies]
 category = "categories"
@@ -154,8 +155,40 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
-weight = 5
+name = "Contact"
+weight = 4
 url = "contact/"
 
+[[languages.en.menu.main]]
+name = "Links"
+weight = 5
+url = "links/"
+
+[languages.zh-cn]
+languageName = ":cn:"
+
+[[languages.zh-cn.menu.main]]
+name = "关于"
+weight = 1
+url = "about/"
+
+[[languages.zh-cn.menu.main]]
+name = "博客"
+weight = 2
+url = "posts/"
+
+[[languages.zh-cn.menu.main]]
+name = "项目"
+weight = 3
+url = "projects/"
+
+[[languages.zh-cn.menu.main]]
+name = "联系"
+weight = 4
+url = "contact/"
+
+[[languages.zh-cn.menu.main]]
+name = "友链"
+weight = 5
+url = "links/"
 
