@@ -1,13 +1,14 @@
 baseURL = "http://static.codein.icu"
 title = "Clouder's Blog"
-theme = "hugo-coder"
+theme = "hugo-theme-stack"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
+paginate = 5
 pygmentsStyle = "dracula"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
+
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 

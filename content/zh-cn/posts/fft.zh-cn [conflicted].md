@@ -1,6 +1,7 @@
 ---
 title: "快速傅立叶变换学习笔记"
 date: 2021-03-27T14:54:26+08:00
+type: posts
 
 ---
 
@@ -252,7 +253,6 @@ a_3\\\\
 a _{n-1}\\\\
 \end{bmatrix}
 $$
-
 即表示为 $A = B \times C$ ，现在已知 $A$ ， $B$  要求 $C$ .
 
 考虑求出 $B$  的逆矩阵 $B'$ ，那么： $C = A \times B'$ .
@@ -262,7 +262,6 @@ $$
 考虑直接构造！
 
 ### 构造逆矩阵
-
 $$
 \begin{bmatrix} 1 & 1 & 1 & 1 & \cdots & 1 \\\\ 1 & \omega_n^1 & \omega_n^2 & \omega_n^3 & \cdots & \omega_n^{n-1} \\\\
 1 & \omega_n^2 & \omega_n^4 & \omega_n^6 & \cdots & \omega_n^{2(n-1)} \\\\
@@ -285,7 +284,6 @@ $$
 0 & 0 & 0 & 0 & \cdots & 1 \\\\
 \end{bmatrix}
 $$
-
 **每个位置取倒数后再除以 $n$  即可得到逆矩阵。**
 
 考虑为什么。对于一个位置 $(i,i)$ ，其值为 $\sum \limits  _{j=1}^n a(i,j) \times b(j,i)$ ，容易观察得到这两个矩阵都关于对角线对称，那么 $a(i,j) = a(j,i)$ 后， $b(j,i) = \dfrac{1}{n \times a(j,i)}$ 使每一项 $a(i,j) \times b(j,i) = \dfrac{1}{n}$ ，累加即可得到 $1$ .
@@ -297,7 +295,6 @@ $$
 证毕。
 
 考虑对于位置 $(i,j) \text{ where } i \neq j$ ，其值等于零。
-
 $$
 \begin{align}
  \sum \limits  _{k=1}^n a(i,k) \times b(k,j) & = \dfrac{1}{n} \times \sum \limits  _{k=1} \omega_n^{(i-1)(k-1)} \times \dfrac{1}{\omega_n^{(k-1)(j-1)}} \\\\
@@ -306,7 +303,6 @@ $$
 & = \dfrac{1}{n} \times 0 \\\\
 \end{align}
 $$
-
 单位圆上转一圈，正负成对消去，最终为零。
 
 ---
@@ -320,11 +316,9 @@ $$
 现在 **IDFT** 的过程中，我们需要给传入的矩阵乘上 $B'$ 矩阵。由于 $B$  矩阵的每个元素都对应 $B'$ 矩阵上的一个元素，可以用类似 **DFT** 的写法。
 
 单位复根的倒数： $\dfrac{1}{\omega_n^k} \times \omega_n^k = 1$ ，考虑复数乘法的几何意义，即辐角相加，那么 $\dfrac{1}{\omega_n^k}$ 的辐角为 $\omega_n^k$ 辐角的相反数，关于 $y$  轴对称，虚部系数取相反数即可。
-
 $$
 \dfrac{1}{\omega_n^k} = \cos (\dfrac{2\pi k}{n}) - i \sin(\dfrac{2\pi k}{n})
 $$
-
 ---
 
 代码实现只需要在 **DFT** 的基础上改一个符号。甚至可以加一个调节变量合在一起。
@@ -392,11 +386,9 @@ void DFT(comp* f, int n, int rev = 1)
 首先 $R(0) = 0$ .
 
 在求 $R(x)$ 时，已知 $R(\lfloor \dfrac{x}{2} \rfloor)$ ，将 $x$  右移一位后翻转，翻转的结果再右移一位，就得到了除了个位外的翻转结果。考虑个位会翻转到首位，如果 $x$ 是奇数，结果加上最高位对应的 $2^{k-1} =\dfrac{len}{2}$ 即可。
-
 $$
 R(x) = \lfloor \dfrac{R(\lfloor \dfrac{x}{2} \rfloor)}{2} \rfloor + (x \bmod 2) \times \dfrac{len}{2}
 $$
-
 ---
 
 代码实现：
@@ -545,7 +537,6 @@ int main()
 还有一种黑科技，可以将卷积需要的三次 FFT 降低到两次。
 
 考虑 $f(x) \cdot g(x)$ ，将 $g(x)$ 放到 $f(x)$ 的虚部上，求出 $f(x)^2$ 后，虚部除以二就是答案。
-
 $$
 (a + bi)^2 = (a^2-b^2) + (2abi)
 $$
