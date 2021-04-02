@@ -52,7 +52,7 @@ params:
 
         utterances:
             repo: Clouder0/ClouderBlogComment
-            issueTerm: pathname
+            issueTerm: title
             label:
 
         remark42:
