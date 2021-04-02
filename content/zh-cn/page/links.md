@@ -1,10 +1,14 @@
 ---
-title: "友情链接"
+title: "友链"
 date: 2021-03-27T11:57:00+08:00
 slug: "links"
 type: posts
 categories:
   - Other
+menu:
+    main:
+        weight: -60
+        pre: link
 ---
 
 *We are isolated, we are associated.*

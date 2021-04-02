@@ -5,6 +5,10 @@ slug: "links"
 type: posts
 categories:
   - Other
+menu:
+    main:
+        weight: -60
+        pre: link
 ---
 
 *We are isolated, we are associated.*
