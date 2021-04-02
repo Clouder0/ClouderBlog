@@ -135,7 +135,7 @@ languages:
           name: 英语
           url: /
           weight: 100
-          pre: link
+          pre: translate
   en:
     contentDir: content/en
     languageName: English
@@ -152,4 +152,4 @@ languages:
           name: Chinese
           url: /zh-cn/
           weight: 100
-          pre: link
+          pre: translate
