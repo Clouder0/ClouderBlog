@@ -7,7 +7,7 @@ tags:
   - math
   - bsgs
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 

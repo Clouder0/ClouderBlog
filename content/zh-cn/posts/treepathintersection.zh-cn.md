@@ -6,7 +6,7 @@ type: posts
 tags:
   - lca
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 

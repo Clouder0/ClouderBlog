@@ -8,7 +8,7 @@ tags:
   - math
   - matrix
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 ## 高斯消元

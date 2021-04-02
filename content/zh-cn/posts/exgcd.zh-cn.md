@@ -7,7 +7,7 @@ tags:
   - math
   - exgcd
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 # 拓展欧几里得算法

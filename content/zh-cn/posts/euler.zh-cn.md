@@ -7,7 +7,7 @@ tags:
   - math
   - euler
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 ## 欧拉函数

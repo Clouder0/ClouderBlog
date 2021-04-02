@@ -6,7 +6,7 @@ type: posts
 tags:
   - hash
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 # 哈希表

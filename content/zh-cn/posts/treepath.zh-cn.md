@@ -7,7 +7,7 @@ tags:
   - tree
   - fenwick-tree
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 ## 前言

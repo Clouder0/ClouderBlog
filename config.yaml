@@ -127,12 +127,12 @@ languages:
     menu:
       main:
         - identifier: home
-          name: Home
+          name: 首页
           url: /zh-cn/
           weight: -100
           pre: home
         - identifier: enswitch
-          name: English
+          name: 英语
           url: /
           weight: 100
           pre: link

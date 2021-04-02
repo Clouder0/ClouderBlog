@@ -8,7 +8,7 @@ tags:
   - expectation
   - dynamic-programming
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 ## 前言

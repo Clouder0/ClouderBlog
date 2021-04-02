@@ -7,7 +7,7 @@ tags:
   - heavydecomposition
   - tree
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 

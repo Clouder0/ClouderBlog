@@ -10,7 +10,7 @@ tags:
   - segment-tree
   - heavydecomposition
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 ## 前言

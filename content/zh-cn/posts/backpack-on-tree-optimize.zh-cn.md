@@ -7,7 +7,7 @@ tags:
   - backpack-on-tree
   - optimize
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 ## 加入

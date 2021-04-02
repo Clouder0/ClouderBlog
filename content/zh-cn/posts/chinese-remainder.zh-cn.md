@@ -7,7 +7,7 @@ tags:
   - chinese-remainder
   - math
 categories:
-  - algorithm
+  - Algorithm
 ---
 
 

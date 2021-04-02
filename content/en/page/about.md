@@ -6,6 +6,10 @@ author: "Clouder"
 type: posts
 categories:
   - Other
+menu:
+    main:
+        weight: -50
+        pre: user
 ---
 
 > Where the Cloud is? Mildly it escapes.
