@@ -43,18 +43,11 @@ categories:
 
 假定 **DFT** 过程中选取的点相同，有：
 
-$$
-\begin{aligned}
-& f(x) = \{(x_0,f(x_0)),(x_1,f(x_1)),\ldots,(x_n,f(x_n))\} \\\\
-& g(x) = \{(x_0,g(x_0)),(x_1,g(x_1)),\ldots,(x_n,g(x_n))\} \\\\
-\end{aligned}
-$$
+$$ \begin{aligned} & f(x) = \{(x_0,f(x_0)),(x_1,f(x_1)),\ldots,(x_n,f(x_n))\} \\\\ & g(x) = \{(x_0,g(x_0)),(x_1,g(x_1)),\ldots,(x_n,g(x_n))\} \\\\ \end{aligned} $$
 
 设 $F(x) = f(x) \cdot g(x)$ ，容易得到 $F(x)$  的点值表达：
 
-$$
-F(x) = \{(x_0,f(x_0)g(x_0)),(x_1,f(x_1)g(x_1)),\ldots,(x _{n},f(x_n))g(x_n)\}
-$$
+$$ F(x) = \{(x_0,f(x_0)g(x_0)),(x_1,f(x_1)g(x_1)),\ldots,(x _{n},f(x_n))g(x_n)\} $$
 
 接下来就需要将点值还原回系数。
 
@@ -88,9 +81,7 @@ $$
 
 那么：
 
-$$
-\omega _n ^k = \cos \dfrac{k}{n} \times 2\pi + i \sin \dfrac{k}{n} \times2\pi
-$$
+$$\omega _n ^k = \cos \dfrac{k}{n} \times 2\pi + i \sin \dfrac{k}{n} \times2\pi$$
 
 将 $w_n^1$ 即 $w_n$ 称为 $n$  次单位复根。
 
@@ -104,29 +95,14 @@ $$
 
 单位复根有三个重要性质：
 
-$$
-\begin{aligned}
-& \omega _n ^n = 1 \\\\
-& \omega _n ^k = \omega _{2n} ^{2k} \\\\
-& \omega _{2n} ^{k+n} = -\omega _{2n} ^k \\\\
-\end{aligned}
-$$
+$$ \begin{aligned} & \omega _n ^n = 1 \\\\& \omega _n ^k = \omega _{2n} ^{2k} \\\\& \omega _{2n} ^{k+n} = -\omega _{2n} ^k \\\\\end{aligned} $$
 
 第一个很好理解，由"定义"就能知道。
 第二个也很好理解，考虑 $n$ 等分下前 $k$  个角与 $2n$ 等分下前 $2k$  个角等价。
 
 第三个稍微需要证明。
 
-$$
-\begin{aligned}
-& \omega _{2n}^{k+n} = (\cos (\dfrac{k+n}{2n} \times 2\pi),\sin (\dfrac{k+n}{2n} \times 2\pi))\\\\
-& \cos(\dfrac{k+n}{2n} \times 2\pi) \iff \cos (\dfrac{k}{2n} \times 2\pi + \pi) \iff -\cos(\dfrac{k}{2n} \times 2\pi)\\\\
-& \sin(\dfrac{k+n}{2n} \times 2\pi) \iff \sin (\dfrac{k}{2n} \times 2\pi + \pi) \iff -\sin(\dfrac{k}{2n} \times 2\pi)\\\\
-& \omega _{2n}^{k+n} = (\cos (\dfrac{k+n}{2n} \times 2\pi),\sin (\dfrac{k+n}{2n} \times 2\pi))\\\\
-& = (-\cos(\dfrac{k}{2n} \times 2\pi),-sin(\dfrac{k}{2n} \times 2\pi)))\\\\
-& = -\omega _{2n}^k \\\\
-\end{aligned}
-$$
+$$ \begin{aligned} & \omega _{2n}^{k+n} = (\cos (\dfrac{k+n}{2n} \times 2\pi),\sin (\dfrac{k+n}{2n} \times 2\pi))\\\\& \cos(\dfrac{k+n}{2n} \times 2\pi) \iff \cos (\dfrac{k}{2n} \times 2\pi + \pi) \iff -\cos(\dfrac{k}{2n} \times 2\pi)\\\\& \sin(\dfrac{k+n}{2n} \times 2\pi) \iff \sin (\dfrac{k}{2n} \times 2\pi + \pi) \iff -\sin(\dfrac{k}{2n} \times 2\pi)\\\\& \omega _{2n}^{k+n} = (\cos (\dfrac{k+n}{2n} \times 2\pi),\sin (\dfrac{k+n}{2n} \times 2\pi))\\\\& = (-\cos(\dfrac{k}{2n} \times 2\pi),-sin(\dfrac{k}{2n} \times 2\pi)))\\\\& = -\omega _{2n}^k \\\\\end{aligned} $$
 
 ---
 
@@ -142,53 +118,29 @@ $$
 
 以共有 $8$  项的  $7$  次多项式为例：
 
-$$
-f(x) = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7
-$$
+$$ f(x) = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 $$
 
 按照次数奇偶分组后，对奇次项组提出一个 $x$ ：
 
-$$
-\begin{aligned}
-f(x) & = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\\\
-& = (a_0 + a_2x^2 + a_4x^4 + a_6x^6) + (a_1x + a_3x^3 + a_5x^5 + a_7x^7) \\\\
-& = (a_0 + a_2x^2 + a_4x^4 + a_6x^6) + x(a_1 + a_3x^2 + a_5x^4 + a_7x^6)
-\end{aligned}
-$$
+$$ \begin{aligned} f(x) & = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\\\& = (a_0 + a_2x^2 + a_4x^4 + a_6x^6) + (a_1x + a_3x^3 + a_5x^5 + a_7x^7) \\\\& = (a_0 + a_2x^2 + a_4x^4 + a_6x^6) + x(a_1 + a_3x^2 + a_5x^4 + a_7x^6) \end{aligned} $$
 
 两边形式高度类似，构造两个新函数：
 
-$$
-\begin{align}
-F(x) = a_0 + a_2x + a_4x^2 + a_6x^3 \\\\
-G(x) = a_1 + a_3x + a_5x^2 + a_7x^3 \\\\
-\end{align}
-$$
+$$ \begin{aligned} F(x) = a_0 + a_2x + a_4x^2 + a_6x^3 \\\\G(x) = a_1 + a_3x + a_5x^2 + a_7x^3 \\\\\end{aligned} $$
 
 那么：
 
-$$
-f(x) = F(x^2) + x \times G(x^2)
-$$
+$$ f(x) = F(x^2) + x \times G(x^2) $$
 
 接下来用上单位复根的性质：
 
-$$
-\begin{aligned}
-\operatorname{DFT}(f(\omega _{n}^k)) & = \operatorname{DFT}(F(\omega_n^{2k})) + \omega_n^k \times \operatorname{DFT}(G(\omega_n^{2k})) \\\\
-& = \operatorname{DFT}(F(\omega _{n/2}^{k})) + \omega_n^k \times \operatorname{DFT}(G(\omega _{n/2}^{k}))
-\end{aligned}
-$$
+$$ \begin{aligned} \operatorname{DFT}(f(\omega _{n}^k)) & = \operatorname{DFT}(F(\omega_n^{2k})) + \omega_n^k \times \operatorname{DFT}(G(\omega_n^{2k})) \\\\& = \operatorname{DFT}(F(\omega _{n/2}^{k})) + \omega_n^k \times \operatorname{DFT}(G(\omega _{n/2}^{k})) \end{aligned} $$
 
 同理有：
 
-$$
-\begin{aligned}
-\operatorname{DFT}(f(\omega _{n}^{k+n/2})) & = \operatorname{DFT}(F(\omega_n^{2k+n})) + \omega_n^{k+n/2} \times \operatorname{DFT}(G(\omega_n^{2k+n})) \\\\
-& = \operatorname{DFT}(F(\omega_n^{2k})) - \omega_n^k \times \operatorname{DFT}(G(\omega_n^{2k})) \\\\
-& = \operatorname{DFT}(F(\omega _{n/2}^{k})) - \omega_n^k \times \operatorname{DFT}(G(\omega _{n/2}^{k}))
-\end{aligned}
-$$
+$$ \begin{aligned}
+\operatorname{DFT}(f(\omega _{n}^{k+n/2})) & = \operatorname{DFT}(F(\omega_n^{2k+n})) + \omega_n^{k+n/2} \times \operatorname{DFT}(G(\omega_n^{2k+n})) \\\\& = \operatorname{DFT}(F(\omega_n^{2k})) - \omega_n^k \times \operatorname{DFT}(G(\omega_n^{2k})) \\\\& = \operatorname{DFT}(F(\omega _{n/2}^{k})) - \omega_n^k \times \operatorname{DFT}(G(\omega _{n/2}^{k}))
+\end{aligned} $$
 
 那么只要求出 $\operatorname{DFT}(F(\omega _{n/2}^k))$ 与 $\operatorname{DFT}(G(\omega _{n/2}^k))$ ，就可以求出 $\operatorname{DFT}(f(\omega _{n}^{k}))$ 与 $\operatorname{DFT}(f(\omega _{n}^{k+n/2}))$ .
 
@@ -227,35 +179,15 @@ void DFT(comp* f, int n)
 
 将单位复根代入多项式，可以得到：
 
-$$
-\begin{cases}
-& y_0 = a_0 + a_1 + a_2 + \ldots + a_n(x_0 = 1)\\\\
-& y_1 = a_0 + a_1\omega_n^1 + a_2\omega_n^2 + \ldots + a_n\omega_n^{n-1}(x_1 = \omega_n^1)\\\\
-& y_2 = a_0 + a_1\omega_n^2 + a_2\omega_n^4 + \ldots + a_n\omega_n^{2(n-1)}(x_2 = \omega_n^2)\\\\
-& \cdots\\\\
-& y _{n-1} = a_0 + a_1\omega_n^{n-1} + a_2\omega_n^{2(n-1)} + \ldots + a_n\omega_n^{(n-1)^2}(x _{n-1} = \omega_n^{n-1})
-\end{cases}
-$$
+$$ \begin{cases} & y_0 = a_0 + a_1 + a_2 + \ldots + a_n(x_0 = 1)\\\\& y_1 = a_0 + a_1\omega_n^1 + a_2\omega_n^2 + \ldots + a_n\omega_n^{n-1}(x_1 = \omega_n^1)\\\\& y_2 = a_0 + a_1\omega_n^2 + a_2\omega_n^4 + \ldots + a_n\omega_n^{2(n-1)}(x_2 = \omega_n^2)\\\\& \cdots\\\\& y _{n-1} = a_0 + a_1\omega_n^{n-1} + a_2\omega_n^{2(n-1)} + \ldots + a_n\omega_n^{(n-1)^2}(x _{n-1} = \omega_n^{n-1})
+\end{cases} $$
 
 考虑写成矩阵的形式：
 
-$$\begin{bmatrix} y_0 \\\\ y_1 \\\\ y_2 \\\\ y_3 \\\\ \vdots\\\\ y _{n-1}\\\\ \end{bmatrix} = \begin{bmatrix} 1 & 1 & 1 & 1 & \cdots & 1 \\\\
-1 & \omega_n^1 & \omega_n^2 & \omega_n^3 & \cdots & \omega_n^{n-1} \\\\
-1 & \omega_n^2 & \omega_n^4 & \omega_n^6 & \cdots & \omega_n^{2(n-1)} \\\\
-1 & \omega_n^3 & \omega_n^6 & \omega_n^9 & \cdots & \omega_n^{3(n-1)} \\\\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\
-1 & \omega_n^{n-1} & \omega_n^{2(n-1)} & \omega_n^{3(n-1)} & \cdots & \omega_n^{(n-1)^2}\\\\
-\end{bmatrix}
+$$\begin{bmatrix} y_0 \\\\ y_1 \\\\ y_2 \\\\ y_3 \\\\ \vdots\\\\ y _{n-1}\\\\ \end{bmatrix} = \begin{bmatrix} 1 & 1 & 1 & 1 & \cdots & 1 \\\\1 & \omega_n^1 & \omega_n^2 & \omega_n^3 & \cdots & \omega_n^{n-1} \\\\1 & \omega_n^2 & \omega_n^4 & \omega_n^6 & \cdots & \omega_n^{2(n-1)} \\\\1 & \omega_n^3 & \omega_n^6 & \omega_n^9 & \cdots & \omega_n^{3(n-1)} \\\\\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\1 & \omega_n^{n-1} & \omega_n^{2(n-1)} & \omega_n^{3(n-1)} & \cdots & \omega_n^{(n-1)^2}\\\\\end{bmatrix}
 \times 
 \begin{bmatrix}
-a_0\\\\
-a_1\\\\
-a_2\\\\
-a_3\\\\
-\vdots\\\\
-a _{n-1}\\\\
-\end{bmatrix}
-$$
+a_0\\\\a_1\\\\a_2\\\\a_3\\\\\vdots\\\\a _{n-1}\\\\\end{bmatrix} $$
 即表示为 $A = B \times C$ ，现在已知 $A$ ， $B$  要求 $C$ .
 
 考虑求出 $B$  的逆矩阵 $B'$ ，那么： $C = A \times B'$ .
@@ -265,28 +197,12 @@ $$
 考虑直接构造！
 
 ### 构造逆矩阵
-$$
-\begin{bmatrix} 1 & 1 & 1 & 1 & \cdots & 1 \\\\ 1 & \omega_n^1 & \omega_n^2 & \omega_n^3 & \cdots & \omega_n^{n-1} \\\\
-1 & \omega_n^2 & \omega_n^4 & \omega_n^6 & \cdots & \omega_n^{2(n-1)} \\\\
-1 & \omega_n^3 & \omega_n^6 & \omega_n^9 & \cdots & \omega_n^{3(n-1)} \\\\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\
-1 & \omega_n^{n-1} & \omega_n^{2(n-1)} & \omega_n^{3(n-1)} & \cdots & \omega_n^{(n-1)^2}\\\\ \end{bmatrix} \times \begin{bmatrix}
-\dfrac{1}{n} & \dfrac{1}{n} & \dfrac{1}{n} & \dfrac{1}{n} & \cdots & \dfrac{1}{n} \\\\
-\dfrac{1}{n} & \dfrac{1}{n \omega_n^1} & \dfrac{1}{n\omega_n^2} & \dfrac{1}{n\omega_n^3} & \cdots & \dfrac{1}{n\omega_n^{n-1}} \\\\
-\dfrac{1}{n} & \dfrac{1}{n\omega_n^2} & \dfrac{1}{n\omega_n^4} & \dfrac{1}{n\omega_n^6} & \cdots & \dfrac{1}{n\omega_n^{2(n-1)}} \\\\
-\dfrac{1}{n} & \dfrac{1}{n\omega_n^3} & \dfrac{1}{n\omega_n^6} & \dfrac{1}{n\omega_n^9} & \cdots & \dfrac{1}{n\omega_n^{3(n-1)}} \\\\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\
-\dfrac{1}{n} & \dfrac{1}{n\omega_n^{n-1}} & \dfrac{1}{n\omega_n^{2(n-1)}} & \dfrac{1}{n\omega_n^{3(n-1)}} & \cdots & \dfrac{1}{n\omega_n^{(n-1)^2}}\\\\
-\end{bmatrix} =
+
+$$ \begin{bmatrix} 1 & 1 & 1 & 1 & \cdots & 1 \\\\ 1 & \omega_n^1 & \omega_n^2 & \omega_n^3 & \cdots & \omega_n^{n-1} \\\\1 & \omega_n^2 & \omega_n^4 & \omega_n^6 & \cdots & \omega_n^{2(n-1)} \\\\1 & \omega_n^3 & \omega_n^6 & \omega_n^9 & \cdots & \omega_n^{3(n-1)} \\\\\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\1 & \omega_n^{n-1} & \omega_n^{2(n-1)} & \omega_n^{3(n-1)} & \cdots & \omega_n^{(n-1)^2}\\\\ \end{bmatrix} \times \begin{bmatrix}
+\dfrac{1}{n} & \dfrac{1}{n} & \dfrac{1}{n} & \dfrac{1}{n} & \cdots & \dfrac{1}{n} \\\\\dfrac{1}{n} & \dfrac{1}{n \omega_n^1} & \dfrac{1}{n\omega_n^2} & \dfrac{1}{n\omega_n^3} & \cdots & \dfrac{1}{n\omega_n^{n-1}} \\\\\dfrac{1}{n} & \dfrac{1}{n\omega_n^2} & \dfrac{1}{n\omega_n^4} & \dfrac{1}{n\omega_n^6} & \cdots & \dfrac{1}{n\omega_n^{2(n-1)}} \\\\\dfrac{1}{n} & \dfrac{1}{n\omega_n^3} & \dfrac{1}{n\omega_n^6} & \dfrac{1}{n\omega_n^9} & \cdots & \dfrac{1}{n\omega_n^{3(n-1)}} \\\\\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\\dfrac{1}{n} & \dfrac{1}{n\omega_n^{n-1}} & \dfrac{1}{n\omega_n^{2(n-1)}} & \dfrac{1}{n\omega_n^{3(n-1)}} & \cdots & \dfrac{1}{n\omega_n^{(n-1)^2}}\\\\\end{bmatrix} =
 \begin{bmatrix}
-1 & 0 & 0 & 0 & \cdots & 0 \\\\
-0 & 1 & 0 & 0 & \cdots & 0 \\\\
-0 & 0 & 1 & 0 & \cdots & 0 \\\\
-0 & 0 & 0 & 1 & \cdots & 0 \\\\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\
-0 & 0 & 0 & 0 & \cdots & 1 \\\\
-\end{bmatrix}
-$$
+1 & 0 & 0 & 0 & \cdots & 0 \\\\0 & 1 & 0 & 0 & \cdots & 0 \\\\0 & 0 & 1 & 0 & \cdots & 0 \\\\0 & 0 & 0 & 1 & \cdots & 0 \\\\\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\\\0 & 0 & 0 & 0 & \cdots & 1 \\\\\end{bmatrix} $$
+
 **每个位置取倒数后再除以 $n$  即可得到逆矩阵。**
 
 考虑为什么。对于一个位置 $(i,i)$ ，其值为 $\sum \limits  _{j=1}^n a(i,j) \times b(j,i)$ ，容易观察得到这两个矩阵都关于对角线对称，那么 $a(i,j) = a(j,i)$ 后， $b(j,i) = \dfrac{1}{n \times a(j,i)}$ 使每一项 $a(i,j) \times b(j,i) = \dfrac{1}{n}$ ，累加即可得到 $1$ .
@@ -298,14 +214,10 @@ $$
 证毕。
 
 考虑对于位置 $(i,j) \text{ where } i \neq j$ ，其值等于零。
-$$
-\begin{align}
- \sum \limits  _{k=1}^n a(i,k) \times b(k,j) & = \dfrac{1}{n} \times \sum \limits  _{k=1} \omega_n^{(i-1)(k-1)} \times \dfrac{1}{\omega_n^{(k-1)(j-1)}} \\\\
-& = \dfrac{1}{n}\times \sum \limits  _{k=1} \omega_n^{(i-1)(k-1)} \times \omega_n^{(1-j)(k-1)} \\\\
-& = \dfrac{1}{n} \times \sum \limits  _{k=1} \omega_n^{(k-1)(i-j)} \\\\
-& = \dfrac{1}{n} \times 0 \\\\
-\end{align}
-$$
+
+$$ \begin{aligned}
+ \sum \limits  _{k=1}^n a(i,k) \times b(k,j) & = \dfrac{1}{n} \times \sum \limits  _{k=1} \omega_n^{(i-1)(k-1)} \times \dfrac{1}{\omega_n^{(k-1)(j-1)}} \\\\& = \dfrac{1}{n}\times \sum \limits  _{k=1} \omega_n^{(i-1)(k-1)} \times \omega_n^{(1-j)(k-1)} \\\\& = \dfrac{1}{n} \times \sum \limits  _{k=1} \omega_n^{(k-1)(i-j)} \\\\& = \dfrac{1}{n} \times 0 \\\\\end{aligned} $$
+
 单位圆上转一圈，正负成对消去，最终为零。
 
 ---
@@ -319,9 +231,11 @@ $$
 现在 **IDFT** 的过程中，我们需要给传入的矩阵乘上 $B'$ 矩阵。由于 $B$  矩阵的每个元素都对应 $B'$ 矩阵上的一个元素，可以用类似 **DFT** 的写法。
 
 单位复根的倒数： $\dfrac{1}{\omega_n^k} \times \omega_n^k = 1$ ，考虑复数乘法的几何意义，即辐角相加，那么 $\dfrac{1}{\omega_n^k}$ 的辐角为 $\omega_n^k$ 辐角的相反数，关于 $y$  轴对称，虚部系数取相反数即可。
+
 $$
 \dfrac{1}{\omega_n^k} = \cos (\dfrac{2\pi k}{n}) - i \sin(\dfrac{2\pi k}{n})
 $$
+
 ---
 
 代码实现只需要在 **DFT** 的基础上改一个符号。甚至可以加一个调节变量合在一起。
@@ -389,9 +303,11 @@ void DFT(comp* f, int n, int rev = 1)
 首先 $R(0) = 0$ .
 
 在求 $R(x)$ 时，已知 $R(\lfloor \dfrac{x}{2} \rfloor)$ ，将 $x$  右移一位后翻转，翻转的结果再右移一位，就得到了除了个位外的翻转结果。考虑个位会翻转到首位，如果 $x$ 是奇数，结果加上最高位对应的 $2^{k-1} =\dfrac{len}{2}$ 即可。
+
 $$
 R(x) = \lfloor \dfrac{R(\lfloor \dfrac{x}{2} \rfloor)}{2} \rfloor + (x \bmod 2) \times \dfrac{len}{2}
 $$
+
 ---
 
 代码实现：
@@ -441,18 +357,11 @@ void FFT(comp* f, int n, int rev)
 > 考虑：将两个相乘的多项式转化为点值表示，将点值相乘后再转回系数表示，就完成了多项式乘法。  
 > 假定 **DFT** 过程中选取的点相同，有：  
 >
-> $$
-> \begin{aligned}
-> & f(x) = \{(x_0,f(x_0)),(x_1,f(x_1)),\ldots,(x _{n},f(x_n))\} \\\\
-> & g(x) = \{(x_0,g(x_0)),(x_1,g(x_1)),\ldots,(x _{n},g(x_n))\} \\\\
-> \end{aligned}
-> $$
+> $$ \begin{aligned} & f(x) = \{(x_0,f(x_0)),(x_1,f(x_1)),\ldots,(x _{n},f(x_n))\} \\\\ & g(x) = \{(x_0,g(x_0)),(x_1,g(x_1)),\ldots,(x _{n},g(x_n))\} \\\\ \end{aligned} $$
 >
 > 设 $F(x) = f(x) \cdot g(x)$ ，容易得到 $F(x)$  的点值表达：
 >
-> $$
-> F(x) = \{(x_0,f(x_0)g(x_0)),(x_1,f(x_1)g(x_1)),\ldots,(x _{n},f(x_n))g(x_n)\}
-> $$
+> $$ F(x) = \{(x_0,f(x_0)g(x_0)),(x_1,f(x_1)g(x_1)),\ldots,(x _{n},f(x_n))g(x_n)\} $$
 >
 > 接下来就需要将点值还原回系数。
 >
@@ -739,4 +648,4 @@ int main()
     for (int i = limit; i >= 0; --i) putchar(C[i] + '0');
     return 0;
 }
-```
+`

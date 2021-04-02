@@ -140,22 +140,14 @@ $$
 证明：
 
 $$
-\begin{aligned} & A^x \equiv B \pmod {P} \\ & A \times A^{x-1} \equiv B \pmod{P} \\ & A \times A^{x-1} + P \times k = B\end{aligned}
+\begin{aligned} & A^x \equiv B \pmod {P} \\\\ & A \times A^{x-1} \equiv B \pmod{P} \\\\ & A \times A^{x-1} + P \times k = B\end{aligned}
 $$
 
 将 $A^{x-1},k$ 看做自变量，则当 $\gcd(A,P) \mid B$ 时该二元一次不定方程有解。
 
 ---
 
-$$
-\begin{aligned} 
-& A^x \equiv B \pmod {P} 
-\\
-\Rrightarrow & \dfrac{A^x}{d_1} \equiv \dfrac{B}{d_1} \pmod{\dfrac{P}{d_1}}
-\\
-\Rrightarrow & \dfrac{a}{d_1} \times A^{x-1} \equiv \dfrac{B}{d_1} \pmod{\dfrac{P}{d_1}}
-\end{aligned}
-$$
+$$ \begin{aligned}  & A^x \equiv B \pmod {P} \\\\ \Rrightarrow & \dfrac{A^x}{d_1} \equiv \dfrac{B}{d_1} \pmod{\dfrac{P}{d_1}} \\\\ \Rrightarrow & \dfrac{a}{d_1} \times A^{x-1} \equiv \dfrac{B}{d_1} \pmod{\dfrac{P}{d_1}} \end{aligned} $$
 
 若 $\gcd(A,\dfrac{P}{d_1}) \neq 1$ ，则继续除。
 
