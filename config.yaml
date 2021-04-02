@@ -99,17 +99,6 @@ params:
         content:
             enabled: true
 
-### Custom menu
-### See https://docs.stack.jimmycai.com/configuration/custom-menu
-### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
-menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: -100
-          pre: home
-
 related:
     includeNewer: true
     threshold: 60
@@ -125,6 +114,11 @@ markup:
     highlight:
         noClasses: false
 
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+
+
 languages:
   zh-cn:
     contentDir: content/zh-cn
@@ -137,7 +131,25 @@ languages:
           url: /zh-cn/
           weight: -100
           pre: home
+        - identifier: enswitch
+          name: English
+          url: /
+          weight: 100
+          pre: link
   en:
     contentDir: content/en
     languageName: English
     weight: 10
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          pre: home
+
+        - identifier: cnswitch
+          name: Chinese
+          url: /zh-cn/
+          weight: 100
+          pre: link
