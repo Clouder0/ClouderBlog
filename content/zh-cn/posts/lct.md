@@ -6,7 +6,7 @@ type: posts
 tags:  
   - lct  
 categories:  
-  - algorithm  
+  - Algorithm  
 ---  
   
 ## 简介  
