@@ -21,7 +21,7 @@ categories:
   
 ## 题面  
   
-![GoogleInterviewProblem.png](https://b3logfile.com/siyuan/1609132319768/https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/googleproblem1.png)  
+![GoogleInterviewProblem.png](https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/googleproblem1.png)  
   
 给定一个无序数组 $A$，长度为 $N$，元素皆为非负整数，要求找到一段连续的子序列使得其和为 $S$。  
   
