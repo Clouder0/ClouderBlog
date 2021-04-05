@@ -6,7 +6,7 @@ type: posts
 tags:
   - hugo
 categories:
-  - other
+  - Other
 ---
 
 ## My Blog moved to Hugo
