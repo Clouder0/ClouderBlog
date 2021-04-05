@@ -134,7 +134,7 @@ $y' = y_0' - \dfrac{a}{\gcd(a,b)} \times t$
 
 ---
 
-例题：[青蛙的约会](https://b3logfile.com/siyuan/1609132319768/https://www.luogu.com.cn/problem/P1516)
+例题：[青蛙的约会](https://www.luogu.com.cn/problem/P1516)
 
 两只青蛙初始坐标为 $x,y$ ，每次跳 $m,n$ 米，定义相遇为模 $L$ 意义下坐标相等，求一起跳跃多少次后相遇。
 

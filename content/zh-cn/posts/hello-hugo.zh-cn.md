@@ -30,4 +30,4 @@ categories:
 
 最后，经过一天一夜的工作，我的网站在 Vercel 上托管了。我花了一些时间来迁移我的重要文章，同时放弃了许多价值较低的文章。
 
-现在您可以阅读本文，该网站应该可以安全，可靠地运行。可以通过 [https://static.codein.icu/](https://b3logfile.com/siyuan/1609132319768/https://static.codein.icu/) 进行访问。值得注意的是，由于许多文章未迁徙，旧的 WordPress 博客在 [https://www.codein.icu/](https://b3logfile.com/siyuan/1609132319768/https://www.codein.icu)上仍然运行良好。
+现在您可以阅读本文，该网站应该可以安全，可靠地运行。可以通过 [https://static.codein.icu/](https://static.codein.icu/) 进行访问。值得注意的是，由于许多文章未迁徙，旧的 WordPress 博客在 [https://www.codein.icu/](https://www.codein.icu)上仍然运行良好。

@@ -117,7 +117,7 @@ int main()
 
 ---
 
-例题：[多少个 $1$ ？](https://b3logfile.com/siyuan/1609132319768/https://www.luogu.com.cn/problem/P4884)
+例题：[多少个 $1$ ？](https://www.luogu.com.cn/problem/P4884)
 
 给整数 $K$ 与质数 $m$ ，求最小的 $N$ 使得 $11\cdots111 (N 个 1) \equiv K \pmod{m}$
 
@@ -258,4 +258,4 @@ inline ll exBSGS(ll A,ll B,ll P)
 }
 ```
 
-例题：[【模板】拓展 BSGS](https://b3logfile.com/siyuan/1609132319768/https://www.luogu.com.cn/problem/P4195)
+例题：[【模板】拓展 BSGS](https://www.luogu.com.cn/problem/P4195)

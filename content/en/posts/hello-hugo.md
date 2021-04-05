@@ -28,4 +28,4 @@ After comparing several popular static site generators, I chose Hugo. Hexo is go
 
 Finally, my website was set up after a night and a day's work, hosting on Vercel. I spent some time migrating my important articles while abandoning many articles with less value.
 
-Now that you can read this article, the website should be working safe and sound.  It can be accessed by [https://static.codein.icu](https://b3logfile.com/siyuan/1609132319768/https://static.codein.icu). It is notable that the old WordPress Blog still runs well on [https://www.codein.icu/](https://b3logfile.com/siyuan/1609132319768/https://www.codein.icu) as many articles haven't been migrated.
+Now that you can read this article, the website should be working safe and sound.  It can be accessed by [https://static.codein.icu](https://static.codein.icu). It is notable that the old WordPress Blog still runs well on [https://www.codein.icu/](https://www.codein.icu) as many articles haven't been migrated.
