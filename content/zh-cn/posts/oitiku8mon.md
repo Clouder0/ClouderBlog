@@ -1,6 +1,6 @@
 ---  
 Title: '[OI题库]八月提高模拟题解'  
-date: 2020-9-3T18:33:07+08:00  
+date: 2020-09-03T18:33:07+08:00  
 slug: "oitiku8mon"  
 type: posts  
 tags:  
