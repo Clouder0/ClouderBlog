@@ -2,7 +2,7 @@
 title: "退役记"
 date: 2021-02-10T20:30:00+08:00
 slug: "afo"
-type: posts
+type: post
 categories:
   - other
 ---

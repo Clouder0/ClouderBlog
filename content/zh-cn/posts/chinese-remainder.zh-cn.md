@@ -2,7 +2,7 @@
 title: "中国剩余定理学习笔记"
 date: 2020-06-12T12:56:40+08:00
 slug: "chinese-remainder"
-type: posts
+type: post
 tags:
   - chinese-remainder
   - math

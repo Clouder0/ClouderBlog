@@ -2,7 +2,7 @@
 title: "[笔记]概率与期望"
 date: 2020-08-20T16:03:11+08:00
 slug: "expectations"
-type: posts
+type: post
 tags:
   - math
   - expectation

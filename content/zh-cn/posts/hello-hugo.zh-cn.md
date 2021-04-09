@@ -2,7 +2,7 @@
 title: "Hello, Hugo!"
 date: 2021-03-27T17:04:52+08:00
 slug: "hello-hugo"
-type: posts
+type: post
 tags:
   - hugo
 categories:

@@ -2,7 +2,7 @@
 title: "[笔记]高斯消元法与矩阵求逆"
 date: 2020-09-10T04:45:00+08:00
 slug: "gauss"
-type: posts
+type: post
 tags:
   - gauss-elimination
   - math

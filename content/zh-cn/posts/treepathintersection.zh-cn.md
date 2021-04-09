@@ -2,7 +2,7 @@
 title: "树上路径求交"
 date: 2020-11-19T16:36:02+08:00
 slug: "treepathintersection"
-type: posts
+type: post
 tags:
   - lca
 categories:

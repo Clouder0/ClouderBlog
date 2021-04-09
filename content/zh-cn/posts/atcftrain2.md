@@ -2,7 +2,7 @@
 title: '[Atcoder][CF]简单题选做练习笔记 2'  
 date: 2020-11-17T10:06:09+08:00  
 slug: "atcftrain2"  
-type: posts  
+type: post  
 tags:  
   - codeforces  
   - atcoder  

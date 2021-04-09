@@ -2,7 +2,7 @@
 title: "后缀树组学习笔记(Suffix Array)"  
 date: 2021-01-22T11:04:17+08:00  
 slug: "sa"  
-type: posts  
+type: post  
 tags:  
   - SuffixArray  
 categories:  

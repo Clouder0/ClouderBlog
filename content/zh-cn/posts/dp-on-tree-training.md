@@ -2,7 +2,7 @@
 title: '树形 DP 练习笔记'  
 date: 2020-11-04T10:38:43+08:00  
 slug: "dpontreetraining"  
-type: posts  
+type: post  
 tags:  
   - dynamic-programming  
 categories:  

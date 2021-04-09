@@ -2,7 +2,7 @@
 title: "欧拉函数、欧拉定理学习笔记"
 date: 2020-06-02T12:55:27+08:00
 slug: "euler"
-type: posts
+type: post
 tags:
   - math
   - euler

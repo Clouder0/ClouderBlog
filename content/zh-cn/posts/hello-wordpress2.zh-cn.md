@@ -2,7 +2,7 @@
 title: "再次迁徙到 WordPress"
 date: 2020-11-21T10:24:43+08:00
 slug: "hello-wordpress2"
-type: posts
+type: post
 categories:
   - Other
 ---

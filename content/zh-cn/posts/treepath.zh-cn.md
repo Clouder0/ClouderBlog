@@ -2,7 +2,7 @@
 title: '树上点与路径的问题的在线差分解法'
 date: 2020-10-27T16:13:02+08:00
 slug: "treepath"
-type: posts
+type: post
 tags:
   - tree
   - fenwick-tree

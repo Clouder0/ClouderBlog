@@ -2,7 +2,7 @@
 title: "树上背包的优化"
 date: 2020-04-12T22:00:53+08:00
 slug: "backpack-on-tree-optimize"
-type: posts
+type: post
 tags:
   - backpack-on-tree
   - optimize

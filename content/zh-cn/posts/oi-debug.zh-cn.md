@@ -2,7 +2,7 @@
 title: "调试程序的常用方法"
 date: 2020-10-20T16:07:03+08:00
 slug: "debugging"
-type: posts
+type: post
 tags:
   - debug
 categories:

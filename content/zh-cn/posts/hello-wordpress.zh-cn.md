@@ -2,7 +2,7 @@
 title: "Hello Wordpress"
 date: 2020-04-01T12:38:53+08:00
 slug: "hello-wordpress"
-type: posts
+type: post
 categories:
   - Other
 ---

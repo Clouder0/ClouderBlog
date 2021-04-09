@@ -2,7 +2,7 @@
 title: "BSGS(大步小步算法)解离散对数问题"
 date: 2020-06-13T14:58:04+08:00
 slug: "bsgs"
-type: posts
+type: post
 tags:
   - math
   - bsgs

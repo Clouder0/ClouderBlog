@@ -2,7 +2,7 @@
 title: "Clash 教程"
 date: 2020-04-02T21:10:52+08:00
 slug: "clashtutorial"
-type: posts
+type: post
 tags:
   - proxy
 categories: 

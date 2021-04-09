@@ -2,7 +2,7 @@
 title: "拓展欧几里德算法(exgcd)学习笔记"
 date: 2020-05-23T13:38:12+08:00
 slug: "exgcd"
-type: posts
+type: post
 tags:
   - math
   - exgcd

@@ -2,7 +2,7 @@
 title: "Migrate Images to COS"
 date: 2021-04-05T15:37:55+08:00
 slug: "migrate-images-to-cos"
-type: posts
+type: post
 tags:
   - cloud
 categories:

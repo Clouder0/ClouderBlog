@@ -2,7 +2,7 @@
 title: "轻重链剖分练习笔记"
 date: 2020-10-21T12:08:52+08:00
 slug: "heavydecomposition"
-type: posts
+type: post
 tags:
   - heavydecomposition
   - tree

@@ -2,7 +2,7 @@
 title: "开始使用腾讯云 COS 存储图片"
 date: 2021-04-05T15:37:55+08:00
 slug: "migrate-images-to-cos"
-type: posts
+type: post
 tags:
   - cloud
 categories:

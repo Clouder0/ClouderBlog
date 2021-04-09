@@ -4,7 +4,7 @@ date: 2020-05-04T16:17:00+08:00
 slug: "proxyfaq"
 tags: 
   - "Proxy"
-type: posts
+type: post
 categories:
   - Other
 ---

@@ -2,7 +2,7 @@
 title: "NOIP2020 前练习笔记"  
 date: 2020-11-26T11:10:13+08:00  
 slug: "noiptraining2020"  
-type: posts  
+type: post  
 tags:  
   - codeforces  
   - noi  

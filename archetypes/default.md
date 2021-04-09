@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 slug: ""
-type: posts
+type: post
 tags:
   - 
 categories:

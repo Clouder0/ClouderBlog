@@ -2,7 +2,7 @@
 title: "动态DP学习笔记"
 date: 2020-10-23T16:10:28+08:00
 slug: "ddp"
-type: posts
+type: post
 tags:
   - dynamic-programming
   - ddp

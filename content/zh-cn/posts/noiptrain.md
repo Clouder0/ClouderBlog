@@ -2,7 +2,7 @@
 title: 'NOI 系列真题练习笔记'
 date: 2020-11-20T08:35:02+08:00
 slug: "noiptrain"
-type: posts
+type: post
 tags:
   - noip
   - csp

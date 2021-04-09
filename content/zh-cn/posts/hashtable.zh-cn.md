@@ -2,7 +2,7 @@
 title: "哈希表"
 date: 2020-05-08T12:52:20+08:00
 slug: "hashtable"
-type: posts
+type: post
 tags:
   - hash
 categories:

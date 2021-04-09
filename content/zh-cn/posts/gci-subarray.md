@@ -2,7 +2,7 @@
 title: "[GoogleInterview]连续子序列问题"  
 date: 2020-04-01T11:47:19+08:00  
 slug: "gci-subarray"  
-type: posts  
+type: post  
 tags:  
   - two-pointers  
   - hash  

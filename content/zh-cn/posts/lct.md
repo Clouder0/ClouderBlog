@@ -2,7 +2,7 @@
 title: "Link Cut Tree 动态树学习笔记"    
 date: 2021-01-23T10:59:11+08:00    
 slug: "lct"  
-type: posts  
+type: post  
 tags:  
   - lct  
 categories:  

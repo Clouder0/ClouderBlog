@@ -2,7 +2,7 @@
 title: "Anne Pro 2 机械键盘开箱记录"
 date: 2020-09-25T14:49:34+08:00
 slug: "annepro2"
-type: posts
+type: post
 categories:
   - Other
 ---
