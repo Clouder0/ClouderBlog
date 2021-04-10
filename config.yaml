@@ -8,6 +8,23 @@ enableRobotsTXT: true
 # GA Tracking ID
 googleAnalytics: G-1ZQNTR3S5S
 
+privacy:
+  disqus: 
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: false
+
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de
 DefaultContentLanguage: zh-cn
