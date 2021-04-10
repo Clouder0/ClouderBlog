@@ -1,0 +1,156 @@
+baseurl = "https://static.codein.icu"
+languageCode = "zh-cn"
+theme = "hugo-theme-stack"
+paginate = 10.0
+title = "Clouder's Blog"
+enableRobotsTXT = true
+googleAnalytics = "G-1ZQNTR3S5S"
+DefaultContentLanguage = "zh-cn"
+
+[privacy]
+  [privacy.disqus]
+  disable = true
+  [privacy.instagram]
+  disable = true
+  [privacy.twitter]
+  disable = true
+  [privacy.vimeo]
+  disable = true
+  [privacy.youtube]
+  disable = true
+  [privacy.googleAnalytics]
+  anonymizeIP = true
+  disable = false
+  respectDoNotTrack = true
+  useSessionStorage = false
+
+[permalinks]
+post = "/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = [ "post" ]
+featuredImageField = "image"
+rssFullContent = true
+
+  [params.footer]
+  since = 2020.0
+  customText = "<p xmlns:cc=\"http://creativecommons.org/ns#\" >This work is licensed under <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">CC BY-NC-SA 4.0<img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1\"></a> </br>Please read our <a href=\"/privacy-policy/\">Privacy Policy</a>."
+
+  [params.dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  [params.sidebar]
+  subtitle = "A Chinese high school student who enjoys life & tech."
+    [params.sidebar.avatar]
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = true
+    [params.article.license]
+    enabled = true
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+  enabled = true
+  provider = "utterances"
+    [params.comments.utterances]
+    repo = "Clouder0/ClouderBlogComment"
+    issueTerm = "title"
+
+  [params.widgets]
+  enabled = [ "search", "archives", "tag-cloud" ]
+    [params.widgets.archives]
+    limit = 10.0
+    [params.widgets.tagCloud]
+    limit = 20.0
+
+  [params.opengraph]
+    [params.opengraph.twitter]
+    card = "summary_large_image"
+
+  [params.defaultImage]
+    [params.defaultImage.opengraph]
+    enabled = false
+    local = false
+
+  [params.colorScheme]
+  toggle = true
+  default = "auto"
+
+  [params.imageProcessing]
+    [cover]
+    enabled = true
+    [content]
+    enabled = true
+
+[related]
+hidden = false
+includeNewer = true
+threshold = 60.0
+toLower = false
+  [[related.indices]]
+  name = "tags"
+  weight = 100.0
+  [[related.indices]]
+  name = "categories"
+  weight = 200.0
+
+[markup]
+  [markup.highlight]
+  noClasses = false
+
+[languages]
+  [languages.zh-cn]
+  contentDir = "content/zh-cn"
+  languageName = "Chinese"
+  weight = 20.0
+
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+      identifier = "home"
+      name = "首页"
+      url = "/"
+      weight = -100.0
+      pre = "home"
+      [[languages.zh-cn.menu.main]]
+      identifier = "feed"
+      name = "订阅"
+      url = "/index.xml"
+      weight = 90.0
+      pre = "rss"
+      [[languages.zh-cn.menu.main]]
+      identifier = "enswitch"
+      name = "英语"
+      url = "/en/"
+      weight = 100.0
+      pre = "translate"
+
+  [languages.en]
+  contentDir = "content/en"
+  languageName = "English"
+  weight = 10.0
+  [languages.en.params.footer]
+  customText = "<p xmlns:cc=\"http://creativecommons.org/ns#\" >This work is licensed under <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">CC BY-NC-SA 4.0<img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\"><img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1\"></a> </br>Please read our <a href=\"/en/privacy-policy/\">Privacy Policy</a>."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+      identifier = "home"
+      name = "Home"
+      url = "/en/"
+      weight = -100.0
+      pre = "home"
+      [[languages.en.menu.main]]
+      identifier = "feed"
+      name = "Feed"
+      url = "/en/index.xml"
+      weight = 90.0
+      pre = "rss"
+      [[languages.en.menu.main]]
+      identifier = "cnswitch"
+      name = "Chinese"
+      url = "/"
+      weight = 100.0
+      pre = "translate"
+
