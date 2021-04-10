@@ -1,5 +1,5 @@
 baseurl: https://static.codein.icu
-languageCode: en-us
+languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 10
 title: Clouder's Blog
@@ -10,7 +10,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 permalinks:
     post: /:slug/
@@ -127,20 +127,20 @@ languages:
       main:
         - identifier: home
           name: 首页
-          url: /zh-cn/
+          url: /
           weight: -100
           pre: home
 
         - identifier: feed
           name: 订阅
-          url: /zh-cn/index.xml
+          url: /index.xml
           weight: 90
           pre: rss
 
 
         - identifier: enswitch
           name: 英语
-          url: /
+          url: /en/
           weight: 100
           pre: translate
 
@@ -152,18 +152,18 @@ languages:
       main:
         - identifier: home
           name: Home
-          url: /
+          url: /en/
           weight: -100
           pre: home
 
         - identifier: feed
           name: Feed
-          url: /index.xml
+          url: /en/index.xml
           weight: 90
           pre: rss
 
         - identifier: cnswitch
           name: Chinese
-          url: /zh-cn/
+          url: /
           weight: 100
           pre: translate
