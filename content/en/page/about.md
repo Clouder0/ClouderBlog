@@ -24,8 +24,8 @@ While the majority of the articles are only available in Chinese, some articles 
 
 ## Events
 
-- 2019 CSP-S: Got a second prize in Guangdong Province.(ranked 200+ provincially).
-- 2020 BBCC(Big Bay Computer Competition): Ranked 3-rd in Team Competition and 9-th in Indivisual Competition.
-- 2020 CSP-S: Got a first prize in Guangdong Province.(ranked 10+ provincially, 100+ nationally)
-- 2021 NOIWC: Got a second prize in China.(ranked 300+ nationally)
+- 2019 CSP-S: Got a second prize in Guangdong Province(ranked 200+ provincially).
+- 2020 BBCC(Big Bay Computer Competition): Ranked 3-rd in Team Competition and 9th in Individual Competition.
+- 2020 CSP-S: Got the first prize in Guangdong Province(ranked 10+ provincially, 100+ nationally).
+- 2021 NOIWC: Got a second prize in China(ranked 300+ nationally).
 - 2021: Quitted from Competitive Programming and headed into Gaokao.
