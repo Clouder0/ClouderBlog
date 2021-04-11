@@ -120,7 +120,7 @@ toLower = false
       pre = "rss"
       [[languages.zh-cn.menu.main]]
       identifier = "enswitch"
-      name = "英语"
+      name = "英语(English)"
       url = "/en/"
       weight = 100.0
       pre = "translate"
@@ -144,7 +144,7 @@ toLower = false
       pre = "rss"
       [[languages.en.menu.main]]
       identifier = "cnswitch"
-      name = "Chinese"
+      name = "Chinese(简体中文)"
       url = "/"
       weight = 100.0
       pre = "translate"
