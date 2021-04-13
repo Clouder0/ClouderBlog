@@ -4,7 +4,6 @@ theme = "hugo-theme-stack"
 paginate = 10.0
 title = "Clouder's Blog"
 enableRobotsTXT = true
-googleAnalytics = "G-1ZQNTR3S5S"
 DefaultContentLanguage = "zh-cn"
 
 [privacy]
@@ -15,7 +14,7 @@ DefaultContentLanguage = "zh-cn"
   youtube = { disable = true }
   [privacy.googleAnalytics]
   anonymizeIP = true
-  disable = false
+  disable = true
   respectDoNotTrack = true
   useSessionStorage = false
 
@@ -25,6 +24,7 @@ page = "/:slug/"
 
 [params]
 mainSections = [ "post" ]
+GoogleAnalyticsID = "G-1ZQNTR3S5S"
 featuredImageField = "image"
 rssFullContent = true
 
