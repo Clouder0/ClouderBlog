@@ -1,4 +1,4 @@
-baseurl = "https://static.codein.icu"
+baseurl = "https://www.codein.icu"
 languageCode = "zh-cn"
 theme = "hugo-theme-stack"
 paginate = 10.0
