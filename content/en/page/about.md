@@ -14,6 +14,8 @@ menu:
 
 > Where the Cloud is? Mildly it escapes.
 
+For more information, please visit my [portfolio website](https://about.codein.icu/).
+
 I am Clouder, A Chinese high school student(graduate in 2022) who enjoys tech & life.
 
 I had been a competitive programmer for about 2 years and now have quitted.
