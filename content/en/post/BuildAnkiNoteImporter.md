@@ -10,6 +10,11 @@ categories:
   - Programming
 ---
 
+**This is the start of my project [AnkiImporter](https://github.com/Clouder0/AnkiImporter).**
+
+Magnificent changes have been made and AnkiImporter is now a mature tool.  
+In this passage, you can see its origin.
+
 ## Why
 
 Recently, we have to make many Anki cards from the specifically formatted text. The repeating work is boring somehow, thus a tool to automate it may be an option.
