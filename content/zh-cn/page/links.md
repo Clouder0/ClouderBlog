@@ -33,3 +33,5 @@ menu:
 [AiGeek](https://www.aigeek.top): 盲目的跟从和愚昧是不可原谅的。
 
 [tntofu](https://tntofu.com): 一名学生，深爱着这个世界。
+
+[卖坚果的怪叔叔](https://cuixinxin.cn)：一枚佛系前端开发，会一丢丢摄影，喜欢折腾，爱好美食。分享点前端技巧、笔记以及各种有趣的APP和资源教程♥♥
