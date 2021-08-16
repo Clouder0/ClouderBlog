@@ -17,8 +17,10 @@ Exchanging links are welcomed.
 
 Application Format:  
 Website Title: Clouder's Blog.  
-Description: A Personal Blog.  
+Description: A student who enjoys tech & life.
 Url: https://www.codein.icu/  
+
+Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png](https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png)
 
 ---
 
@@ -33,3 +35,5 @@ Url: https://www.codein.icu/
 [AiGeek](https://www.aigeek.top): A personal blog.
 
 [tntofu](https://tntofu.com): A student who loves the world.
+
+[AweRailgun](https://miku.mx)：A freshman who loves tech.

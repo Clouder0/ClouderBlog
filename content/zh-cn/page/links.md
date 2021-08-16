@@ -17,8 +17,10 @@ menu:
 
 申请格式：  
 网站标题: Clouder's Blog.  
-网站描述: A Personal Blog.  
+网站描述: A student who enjoys tech & life.
 网站地址: https://www.codein.icu/  
+
+可选用的本站 Logo: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png](https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png)
 
 ---
 
@@ -34,4 +36,4 @@ menu:
 
 [tntofu](https://tntofu.com): 一名学生，深爱着这个世界。
 
-[卖坚果的怪叔叔](https://cuixinxin.cn)：一枚佛系前端开发，会一丢丢摄影，喜欢折腾，爱好美食。分享点前端技巧、笔记以及各种有趣的APP和资源教程♥♥
+[AweRailgun](https://miku.mx)：爱折腾的萌新。
