@@ -15,6 +15,8 @@ menu:
 
 欢迎互换友链。
 
+不定时尝试访问，若失效将被标记，长时间失效将被移除。
+
 申请格式：  
 网站标题: Clouder's Blog.  
 网站描述: A student who enjoys tech & life.
@@ -30,10 +32,10 @@ menu:
 
 [feiko](https://www.feiko.me): OI 之光。
 
-[SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
-
 [AiGeek](https://www.aigeek.top): 盲目的跟从和愚昧是不可原谅的。
 
 [tntofu](https://tntofu.com): 一名学生，深爱着这个世界。
 
-[AweRailgun](https://miku.mx)：爱折腾的萌新。
+[AweRailgun](https://miku.mx): 爱折腾的萌新。
+
+(失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？

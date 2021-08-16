@@ -30,10 +30,10 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 [feiko](https://www.feiko.me): My classmate, a **powerful** competitive programmer.
 
-[SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
-
 [AiGeek](https://www.aigeek.top): A personal blog.
 
 [tntofu](https://tntofu.com): A student who loves the world.
 
-[AweRailgun](https://miku.mx)：A freshman who loves tech.
+[AweRailgun](https://miku.mx): A freshman who loves tech.
+
+(Error)[SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
