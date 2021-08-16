@@ -24,7 +24,7 @@ menu:
 
 ---
 
-[Avimitin's Blog](https://avimitin.com): 龙王的博客。
+[Avimitin's Blog](https://www.avimitin.com): 龙王的博客。
 
 [Islauso's Blog](https://www.azusemisa.top): 小神犇的博客。
 

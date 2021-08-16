@@ -24,7 +24,7 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 ---
 
-[Avimitin's Blog](https://avimitin.com): Tech fan, a friend of mine met in Telegram.
+[Avimitin's Blog](https://www.avimitin.com): Tech fan, a friend of mine met in Telegram.
 
 [Islauso's Blog](https://www.azusemisa.top): A young competitive programmer.
 
