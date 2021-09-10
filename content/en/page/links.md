@@ -36,4 +36,6 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 [AweRailgun](https://miku.mx): A freshman who loves tech.
 
+[Lvbibir's Blog](https://lvbibir.cn): life is a fucking movie.
+
 (Error)[SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？

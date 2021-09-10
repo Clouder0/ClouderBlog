@@ -38,4 +38,6 @@ menu:
 
 [AweRailgun](https://miku.mx): 爱折腾的萌新。
 
+[Lvbibir's Blog](https://lvbibir.cn)： life is a fucking movie.
+
 (失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
