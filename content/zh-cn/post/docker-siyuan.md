@@ -7,7 +7,7 @@ tags:
   - siyuan-note  
   - docker  
 categories:    
-  - Other    
+  - Tech
 ---    
 
 ## 前言  
