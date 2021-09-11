@@ -40,4 +40,6 @@ menu:
 
 [Lvbibir's Blog](https://lvbibir.cn)： life is a fucking movie.
 
+[如鱼饮水，冷暖自知](https://wangjiezhe.com)：蓝田生美玉，西风栽冷香。
+
 (失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
