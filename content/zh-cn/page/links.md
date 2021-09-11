@@ -19,8 +19,8 @@ menu:
 
 申请格式：  
 网站标题: Clouder's Blog.  
-网站描述: A student who enjoys tech & life.
-网站地址: https://www.codein.icu/  
+网站描述: A student who enjoys tech & life.  
+网站地址: [https://www.codein.icu/](https://www.codein.icu/)
 
 可选用的本站 Logo: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png](https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png)
 
