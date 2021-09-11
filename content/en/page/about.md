@@ -16,6 +16,8 @@ menu:
 
 For more information, please visit my [portfolio website](https://about.codein.icu/).
 
+My biolink: [https://bio.link/clouder](https://bio.link/clouder).
+
 I am Clouder, A Chinese high school student(graduate in 2022) who enjoys tech & life.
 
 I had been a competitive programmer for about 2 years and now have quitted.

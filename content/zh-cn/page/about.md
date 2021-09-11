@@ -16,6 +16,8 @@ menu:
 
 了解更多信息，请访问我的[个人简介网站](https://about.codein.icu/)。
 
+我的 Biolink: [https://bio.link/clouder](https://bio.link/clouder).
+
 我是 Clouder，一名中国高中学生，将于 2022 年毕业。热爱科技，享受生活。
 
 曾经学习算法竞赛两年左右，现已退役。
