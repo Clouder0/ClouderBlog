@@ -42,4 +42,6 @@ menu:
 
 [如鱼饮水，冷暖自知](https://wangjiezhe.com)：蓝田生美玉，西风栽冷香。
 
+[NotGou.](https://blog.notgou.com)：NotGou Blog Lite.
+
 (失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
