@@ -8,7 +8,8 @@ categories:
 menu:
     main:
         weight: -60
-        params.icon: link
+        params:
+            icon: link
 ---
 
 *We are isolated, we are associated.*

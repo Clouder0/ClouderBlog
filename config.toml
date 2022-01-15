@@ -154,4 +154,3 @@ toLower = false
       url = "/"
       weight = 100.0
       params.icon = "translate"
-
