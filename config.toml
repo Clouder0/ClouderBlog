@@ -117,19 +117,19 @@ toLower = false
       name = "首页"
       url = "/"
       weight = -100.0
-      pre = "home"
+      params.icon = "home"
       [[languages.zh-cn.menu.main]]
       identifier = "feed"
       name = "订阅"
       url = "/index.xml"
       weight = 90.0
-      pre = "rss"
+      params.icon = "rss"
       [[languages.zh-cn.menu.main]]
       identifier = "enswitch"
       name = "英语(English)"
       url = "/en/"
       weight = 100.0
-      pre = "translate"
+      params.icon = "translate"
 
   [languages.en]
   contentDir = "content/en"
@@ -141,17 +141,17 @@ toLower = false
       name = "Home"
       url = "/en/"
       weight = -100.0
-      pre = "home"
+      params.icon = "home"
       [[languages.en.menu.main]]
       identifier = "feed"
       name = "Feed"
       url = "/en/index.xml"
       weight = 90.0
-      pre = "rss"
+      params.icon = "rss"
       [[languages.en.menu.main]]
       identifier = "cnswitch"
       name = "Chinese(简体中文)"
       url = "/"
       weight = 100.0
-      pre = "translate"
+      params.icon = "translate"
 

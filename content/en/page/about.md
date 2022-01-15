@@ -9,7 +9,7 @@ categories:
 menu:
     main:
         weight: -50
-        pre: user
+        params.icon: user
 ---
 
 > Where the Cloud is? Mildly it escapes.

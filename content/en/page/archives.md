@@ -7,5 +7,5 @@ type: page
 menu:
     main:
         weight: -70
-        pre: archives
+        params.icon: archives
 ---
