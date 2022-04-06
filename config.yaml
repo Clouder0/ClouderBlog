@@ -1,0 +1,200 @@
+baseurl: "https://www.codein.icu"
+languageCode: zh-cn
+theme: hugo-theme-stack
+paginate: 10
+title: Clouder's Blog
+enableRobotsTXT: true
+DefaultContentLanguage: zh-cn
+googleAnalytics: G-1ZQNTR3S5S
+hasCJKLanguage: true
+privacy:
+    disqus:
+        disable: true
+    instagram:
+        disable: true
+    twitter:
+        disable: true
+    vimeo:
+        disable: true
+    youtube:
+        disable: true
+    googleAnalytics:
+        anonymizeIP: true
+        disable: true
+        respectDoNotTrack: true
+        useSessionStorage: false
+permalinks:
+    post: "/:slug/"
+    page: "/:slug/"
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+
+    footer:
+        since: 2020
+        customText: >-
+            <p xmlns:cc="http://creativecommons.org/ns#" >All the articles are
+            licensed under <a
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+            target="_blank" rel="license noopener noreferrer"
+            style="display:inline-block;">CC BY-NC-SA 4.0<img
+            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img
+            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+            src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img
+            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+            src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+            </br>Please read <a href="/privacy-policy/">Privacy Policy</a>.
+
+    dateFormat:
+        published: "Jan 02, 2006"
+        lastUpdated: "Jan 02, 2006 15:04 MST"
+
+    sidebar:
+        subtitle: A Chinese high school student who enjoys life & tech.
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
+
+    article:
+        math: true
+        toc: true
+        readingTime: true
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: true
+        provider: utterances
+        utterances:
+            repo: Clouder0/ClouderBlogComment
+            issueTerm: title
+
+        widgets:
+            homepage:
+                - type: search
+                - type: archives
+                  params:
+                      limit: 5
+                - type: categories
+                  params:
+                      limit: 10
+                - type: tag-cloud
+                  params:
+                      limit: 10
+            page:
+                - type: toc
+
+    opengraph:
+        twitter:
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+
+    colorScheme:
+        toggle: true
+        default: auto
+
+    imageProcessing: {}
+
+languages:
+    en:
+        params:
+            footer:
+                customText: >-
+                    <p xmlns:cc="http://creativecommons.org/ns#" >All the articles are
+                    licensed under <a
+                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+                    target="_blank" rel="license noopener noreferrer"
+                    style="display:inline-block;">CC BY-NC-SA 4.0<img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+                    </br>Please read <a href="/en/privacy-policy/">Privacy Policy</a>.
+        contentDir: content/en
+        languageName: English
+        weight: 10
+        menu:
+            main:
+                - identifier: home
+                  name: Home
+                  url: /en/
+                  weight: -100
+                  params:
+                      icon: home
+                - identifier: feed
+                  name: Feed
+                  url: /en/index.xml
+                  weight: 90
+                  params:
+                      icon: rss
+
+            social:
+                - identifier: github
+                  name: Github
+                  url: https://github.com/Clouder0
+                  params:
+                      icon: brand-github
+    zh-cn:
+        contentDir: content/zh-cn
+        languageName: Chinese
+        weight: 20
+        menu:
+            main:
+                - identifier: home
+                  name: 首页
+                  url: /
+                  weight: -100
+                  params:
+                      icon: home
+                - identifier: feed
+                  name: 订阅
+                  url: /index.xml
+                  weight: 90
+                  params:
+                      icon: rss
+cover:
+    enabled: true
+content:
+    enabled: true
+related:
+    hidden: false
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+        - name: categories
+          weight: 200
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
