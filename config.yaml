@@ -108,57 +108,56 @@ params:
 
 languages:
   en:
-    params:
-      footer:
-        customText: >-
-          <p xmlns:cc="http://creativecommons.org/ns#" >All the articles are
-          licensed under <a
-          href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
-          target="_blank" rel="license noopener noreferrer"
-          style="display:inline-block;">CC BY-NC-SA 4.0<img
-          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
-          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-          src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img
-          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-          src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img
-          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-          src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
-          </br>Please read <a href="/en/privacy-policy/">Privacy Policy</a>.
-      contentDir: content/en
-      languageName: English
-      weight: 10
-      menu:
-        main:
-          - identifier: home
-            name: Home
-            url: /en/
-            weight: -100
-            params:
-              icon: home
-          - identifier: feed
-            name: Feed
-            url: /en/index.xml
-            weight: 90
-            params:
-              icon: rss
+    footer:
+      customText: >-
+        <p xmlns:cc="http://creativecommons.org/ns#" >All the articles are
+        licensed under <a
+         href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+         target="_blank" rel="license noopener noreferrer"
+         style="display:inline-block;">CC BY-NC-SA 4.0<img
+         style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+         src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+         style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+         src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img
+         style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+         src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img
+         style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+         src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+         </br>Please read <a href="/en/privacy-policy/">Privacy Policy</a>.
+    contentDir: content/en
+    languageName: English
+    weight: 10
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /en/
+          weight: -100
+          params:
+            icon: home
+        - identifier: feed
+          name: Feed
+          url: /en/index.xml
+          weight: 90
+          params:
+            icon: rss
 
-        social:
-          - identifier: github
-            name: Github
-            url: https://github.com/Clouder0
-            params:
-            icon: brand-github
-          - identifier: biolink
-            name: BioLink
-            url: https://bio.link/clouder
-            params:
-              icon: link
-          - identifier: reddit
-            name: Reddit
-            url: https://www.reddit.com/user/Clouder0
-            params:
-              icon: brand-reddit
+      social:
+        - identifier: github
+          name: Github
+          url: https://github.com/Clouder0
+          params:
+          icon: brand-github
+        - identifier: biolink
+          name: BioLink
+          url: https://bio.link/clouder
+          params:
+            icon: link
+        - identifier: reddit
+          name: Reddit
+          url: https://www.reddit.com/user/Clouder0
+          params:
+            icon: brand-reddit
   zh-cn:
     contentDir: content/zh-cn
     languageName: Chinese
