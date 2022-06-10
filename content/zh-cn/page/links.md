@@ -37,7 +37,7 @@ menu:
 
 [tntofu](https://tntofu.com): 一名学生，深爱着这个世界。
 
-[AweRailgun](https://miku.mx): 爱折腾的萌新。
+[AweRailgun](https://miku.ie): 爱折腾的萌新。
 
 [Lvbibir's Blog](https://lvbibir.cn)： life is a fucking movie.
 

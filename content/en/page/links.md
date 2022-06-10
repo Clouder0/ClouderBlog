@@ -35,7 +35,7 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 [tntofu](https://tntofu.com): A student who loves the world.
 
-[AweRailgun](https://miku.mx): A freshman who loves tech.
+[AweRailgun](https://miku.ie): A freshman who loves tech.
 
 [Lvbibir's Blog](https://lvbibir.cn): life is a fucking movie.
 
