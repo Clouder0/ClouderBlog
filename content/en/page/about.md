@@ -19,9 +19,9 @@ For more information, please visit my [portfolio website](https://about.codein.i
 
 My biolink: [https://bio.link/clouder](https://bio.link/clouder).
 
-I am Clouder, A Chinese high school student(graduate in 2022) who enjoys tech & life.
+I am Clouder, a student major in CS(Computer Science) who enjoys tech & life.
 
-I had been a competitive programmer for about 2 years and now have quitted.
+In high school years, I had been a competitive programmer for about 2 years and now have quitted.
 
 As I've been using Siyuan Note as my PKM(Personal Knowledge Management) tool to hold all my information, this website only contains some selected articles.
 
@@ -34,3 +34,5 @@ While the majority of the articles are only available in Chinese, some articles 
 - 2020 CSP-S: Got the first prize in Guangdong Province(ranked 10+ provincially, 100+ nationally).
 - 2021 NOIWC: Got a second prize in China(ranked 300+ nationally).
 - 2021: Quitted from Competitive Programming and headed into Gaokao.
+- 2022: Beaten by math in Gaokao.
+- 2022: Enroll in HITsz(Harbin Institute of Technology(Shen Zhen)).
