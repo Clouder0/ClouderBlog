@@ -159,7 +159,7 @@ $x,y \in \mathbf{S}$，那么 $u,y \in \mathbf{T}$.
 那么这条路径一定不能取得比当前 $\operatorname{D}(u)$ 更优的值。  
 因此，该更短路不存在。
 
-> PS：这里还能看出 Dijkstra 为什么不能处理负权图。在负权图上，$L &lt; 0$ 会导致 $\operatorname{D}(t) + L \ge \operatorname{D}(u)$ 这个不等式并不成立，核心的贪心思想就无效了。
+> PS：这里还能看出 Dijkstra 为什么不能处理负权图。在负权图上，$L &lt; 0$ 会导致 $\operatorname{D}(t) + L \ge \operatorname{D}(u)$ 这个不等式并不成立，核心思想就无效了。
 >
 > 此时，取出 $\operatorname{D}(u)$ 最小的点，也未必满足 $\operatorname{D}(u) = \operatorname{dis}(u)$.
 >
