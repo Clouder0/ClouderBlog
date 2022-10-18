@@ -192,9 +192,7 @@ signed main()
 
 定义 $f(i)$ 为在前 $i$ 个元素中选出的最长魔法序列的长度。
 
-$$
-f(i) = \max f(j-1) + 2 \text{ where } sum - A(i)  = A(j)
-$$
+$$f(i) = \max f(j-1) + 2 \text{ where } sum - A(i)  = A(j)$$
 
 那么我们维护一个以 $A(j)$ 为下标，$\max f(j-1)$ 为值的数组，就可以做到单次 $O(n)$ 了。
 
@@ -264,9 +262,7 @@ signed main()
 
 给一个 $n \times m$ 的矩阵，计算：
 
-$$
-\sum \limits _{i=1}^n \sum \limits _{j=1}^m [\min \{M_{u, v} \mid u=i \text{ or } v=j\} = M_{i,j}]
-$$
+$$\sum\limits _{i=1}^n\sum\limits _{j=1}^m \min \[\\{M _{u, v} \mid u=i \\text{ or } v=j\\}\] = M _{i,j}$$
 
 也就是数满足 $M_{i,j}$ 同时为行列最小值的 $(i,j)$ 的个数。
 
