@@ -31,7 +31,7 @@ menu:
 
 [Islauso's Blog](https://www.azusemisa.top): 小神犇的博客。
 
-[feiko](https://www.feiko.me): OI 之光。
+[feiko](https://flandre.love): OI 之光。
 
 [AiGeek](https://www.aigeek.top): 盲目的跟从和愚昧是不可原谅的。
 

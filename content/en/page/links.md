@@ -29,7 +29,7 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 [Islauso's Blog](https://www.azusemisa.top): A young competitive programmer.
 
-[feiko](https://www.feiko.me): My classmate, a **powerful** competitive programmer.
+[feiko](https://flandre.love/): My high school classmate, a **powerful** competitive programmer.
 
 [AiGeek](https://www.aigeek.top): A personal blog.
 
