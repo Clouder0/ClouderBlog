@@ -1,5 +1,5 @@
 ---
-title: "Clash 教程"
+title: "当代大学生焦虑指南"
 date: 2022-09-19T22:01:52+08:00
 slug: "college-at-sea"
 type: post
