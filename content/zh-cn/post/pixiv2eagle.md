@@ -1,6 +1,6 @@
 ---
 title: "抓取 Pixiv 元数据导入 Eagle"
-date: 2022-12-3 02:35:44+08:00
+date: 2022-12-03T02:35:44+08:00
 slug: "pixiv2eagle"
 type: post
 tags:
