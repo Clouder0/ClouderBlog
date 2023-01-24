@@ -39,4 +39,6 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 [Lvbibir's Blog](https://lvbibir.cn): life is a fucking movie.
 
+[TaurusXin's Blog](https://taurusxin.com/): Forever young, forever tears.
+
 (Error)[SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
