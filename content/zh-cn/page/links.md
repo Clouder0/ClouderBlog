@@ -45,4 +45,6 @@ menu:
 
 [NotGou.](https://blog.notgou.com)：NotGou Blog Lite.
 
+[TaurusXin's Blog](https://taurusxin.com/): 永远年轻 永远热泪盈眶.
+
 (失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
