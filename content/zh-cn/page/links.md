@@ -47,4 +47,6 @@ menu:
 
 [TaurusXin's Blog](https://taurusxin.com/): 永远年轻 永远热泪盈眶.
 
+[洛竹的博客](https://youngjuning.js.org)：真理无穷，一寸欢喜。
+
 (失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
