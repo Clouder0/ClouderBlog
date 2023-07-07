@@ -49,4 +49,6 @@ menu:
 
 [洛竹的博客](https://youngjuning.js.org)：真理无穷，一寸欢喜。
 
+[新白菜频道](http://www.n-bc.top)：爱听不听，爱看不看。
+
 (失效) [SurpriseLon’s Blog](https://furrysp.me): あなたは主人公になりたいですか？
