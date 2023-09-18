@@ -27,6 +27,8 @@ Optional Logo for my blog: [https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/self
 
 [Avimitin's Blog](https://blog.sh1mar.in/): Tech fan, a friend of mine met in Telegram.
 
+[5eqn's Blog](https://www.5eqn.top/)：Serialization of a minimalist mind.
+
 [Islauso's Blog](https://www.azusemisa.top): A young competitive programmer.
 
 [feiko](https://flandre.love/): My high school classmate, a **powerful** competitive programmer.

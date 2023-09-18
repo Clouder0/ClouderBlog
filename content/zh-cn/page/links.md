@@ -29,6 +29,8 @@ menu:
 
 [Avimitin's Blog](https://blog.sh1mar.in/): 龙王的博客。
 
+[5eqn's Blog](https://www.5eqn.top/)：Serialization of a minimalist mind.
+
 [Islauso's Blog](https://www.azusemisa.top): 小神犇的博客。
 
 [feiko](https://flandre.love): OI 之光。
